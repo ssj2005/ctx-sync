@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ctx-sync"
+version = "0.1.0"
+description = "Sync AI coding tool configs across CLAUDE.md, AGENTS.md, .cursorrules, copilot-instructions.md. Score quality."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.0",
+]
+
+[project.scripts]
+ctx-sync = "ctx_sync.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ctx_sync"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/ctx_sync"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+# Cursor Rules
+
+This project uses TypeScript, Next.js, Prisma, Tailwind CSS.
+
+Commands:
+  pnpm build # build the project
+  pnpm test # run tests
+  pnpm lint # lint with eslint
+  pnpm dev # start dev server
+
+Project structure:
+- src/app/: Next.js App Router pages
+- src/components/: React components
+- src/lib/: shared utilities
+
+Coding conventions:
+- **Always** use TypeScript for all new files
+- **Naming**: PascalCase for components, camelCase for utilities
+- Use absolute imports with @/ prefix
+- Prefer function components
