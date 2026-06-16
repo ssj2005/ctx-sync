@@ -42,7 +42,7 @@
 ## 30 秒上手
 
 ```bash
-git clone https://github.com/AidenLiu/ctx-sync.git
+git clone https://github.com/ssj2005/ctx-sync.git
 cd ctx-sync
 pip install -e .
 ```
@@ -247,7 +247,7 @@ Each tool reads its own config file:
 ## Quick Start
 
 ```bash
-git clone https://github.com/AidenLiu/ctx-sync.git
+git clone https://github.com/ssj2005/ctx-sync.git
 cd ctx-sync
 pip install -e .
 ```
